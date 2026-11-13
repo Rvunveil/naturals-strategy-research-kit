@@ -1,0 +1,27 @@
+{
+  "name": "naturals-strategy-research-kit",
+  "owner": {
+    "name": "Rvunveil"
+  },
+  "metadata": {
+    "description": "Claude-compatible research skills for the Naturals bridal beauty marketplace strategy challenge",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "naturals-research-skills",
+      "description": "Seven modular skills for evidence-driven market research, strategy, modelling, review, and presentation",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/deep-research",
+        "./skills/market-intelligence",
+        "./skills/business-strategy",
+        "./skills/financial-modelling",
+        "./skills/source-verification",
+        "./skills/presentation-storytelling",
+        "./skills/critical-review"
+      ]
+    }
+  ]
+}
